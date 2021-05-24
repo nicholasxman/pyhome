@@ -8,7 +8,7 @@ import pymysql
 3. 再查询一次，此时就从redis中直接拿
 4. 过期时间到，redis中缓存的数据没了，重复第二步
 '''
-
+#1111111111
 # 连接redis
 r = redis.Redis(host='192.168.232.132',password='123456', port=6379, db='4')
 
